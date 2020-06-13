@@ -1,0 +1,22 @@
+body {
+	background:#ECF8F7;
+}
+h1 {
+	color:#030A10;
+	font-family: "ff-meta-web-pro",sans-serif;
+    font-weight: bold;
+    text-align:center;
+}
+label {
+	color:#030A10;
+	font-family: "ff-meta-web-pro",sans-serif;
+    font-weight: bold;
+    font-size:20px;
+}
+form {
+	text-align: center;
+	margin:50px;
+}
+input {
+	margin:30px;
+}

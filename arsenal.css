@@ -1,0 +1,328 @@
+body {
+	background-color: #ECF8F7;
+}
+.container {
+	background:#f00000;
+	width:100%;
+	padding-right:7%;
+	padding-left:7%;
+	height:120px;
+	border:1px solid #f00000;
+}
+.first {
+	margin:10px;
+	font-family: "ff-meta-web-pro",sans-serif;
+    font-weight: bold;
+    letter-spacing: 0;
+    font-size: 12px;
+}
+.second {
+	margin:10px;
+	font-family: "ff-meta-web-pro",sans-serif;
+	font-size:17px;
+	flex:2;
+}
+.container-1 {
+	display:flex;
+	justify-content:flex-end;
+	flex-wrap:wrap;
+}
+.container-2 {
+	display:flex;
+	border-top:1px solid rgba(255,255,255,0.3);
+	padding-top:20px;
+	justify-content: flex-start;
+	flex-wrap:wrap;
+}
+ img {
+	height: 120px;
+	align-self: center;
+	display:flex;
+}
+.navbar-brand>img {
+    display: flex;
+}
+a {
+	color:white;
+}
+.third {
+	margin:10px;
+	/*background: #131033*/;
+}
+.image {
+	height:30px;
+	
+}
+.navbar>.navbar-inverse{
+	background:blue;
+	border:1px solid #f00000; 
+}
+.icon-bar{
+	background: white;
+}
+h1 {
+	background:#f00000;
+	margin-top:40px;
+	margin-left:150px;
+	margin-right:500px;
+	padding:20px;
+	color:white;
+	font-family: "agency-gothic-ct-cond-tt",sans-serif;  
+}
+.vid {
+	margin-left:150px;
+	width:915px;
+	height:450px;
+	background-image:url(https://i1.wp.com/metro.co.uk/wp-content/uploads/2020/04/GettyImages-1209115924.jpg?quality=90&strip=all&zoom=1&resize=644%2C410&ssl=1);
+	background-attachment: fixed;
+	/*background-size: cover;*/
+}
+.row {
+	margin:50px;
+}
+.jumbotron{
+	margin:50px;
+	text-align: center;
+	background-color: #0B589C;
+	
+}
+h2 {
+	font-family: "ff-meta-web-pro",sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    color:white;
+}
+h3 {
+	font-family: "ff-meta-web-pro",sans-serif;
+    font-weight: bold;
+    font-size:30px;
+    color:white;
+}
+.container-4 {
+	border:1px solid #f00000;
+	margin-left:150px;
+	margin-right:500px;
+	margin-bottom:100px;
+	padding:20px;
+}
+.container-5 {
+	display:flex;
+	justify-content: space-between;
+}
+.Arsenal {
+	font-size:20px;
+	font-family:"ff-meta-web-pro",sans-serif;
+	font-weight:bold;
+	color:#030A10;
+}
+.scores {
+	background:#030A10;
+	color:white;
+	letter-spacing: 10px;
+	font-family:"ff-meta-web-pro",sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	align-self: center;
+}
+.container-6 {
+	display:flex;
+	justify-content:space-between;
+}
+.container-7 {
+	display:flex;
+	justify-content:space-between;
+}
+.container-8 {
+	display:flex;
+	justify-content:space-between;
+}
+.container-9 {
+	display:flex;
+	justify-content:space-between;
+}
+.container-10 {
+	background:#030A10;
+	border:1px solid #030A10; 
+}
+.container-11 {
+	display:flex;
+	justify-content: center;
+	margin:50px;
+}
+.eleven {
+	margin:20px;
+}
+.container-12 {
+	display:flex;
+	justify-content:center;
+	margin-bottom:50px;
+}
+.twelve {
+	margin:20px;
+}
+.container-13 {
+	display:flex;
+	justify-content:center;
+	margin-bottom:50px;
+	border-top:1px solid  rgba(255,255,255,0.3);
+	margin-left:200px;
+	margin-right:200px;
+}
+.thirteen {
+	margin:20px;
+}
+
+@media only screen and (max-width: 900px) {
+	.navbar-default {
+		width:100%;
+	}
+	.container {
+		background:#f00000;
+		width:100%;
+		padding-right:7%;
+		padding-left:7%;
+		height:120px;
+		border:1px solid #f00000;
+	}
+	.collapse {
+		background-color: rgb(8, 3, 39);
+	}
+	.container-1 {
+		display:flex;
+		justify-content:flex-end;
+		flex-wrap:wrap;
+	}
+	.container-2 {
+		display:flex;
+		/* border-top:1px solid rgba(255,255,255,0.3); */
+		padding-top:20px;
+		justify-content: flex-start;
+		flex-wrap:wrap;
+	}
+	h1 {
+		background:#f00000;
+		margin-top:40px;
+		padding:20px;
+		color:white;
+		font-family: "agency-gothic-ct-cond-tt",sans-serif;
+		width: 100%;
+		margin-left: 30px;
+		margin-right: 30px; 
+	}
+	#trend {
+		width: 100%;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	.vid {
+		width: 100%;
+		height:300px;
+		background-image:url(https://i1.wp.com/metro.co.uk/wp-content/uploads/2020/04/GettyImages-1209115924.jpg?quality=90&strip=all&zoom=1&resize=644%2C410&ssl=1);
+		background-attachment: fixed;
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+	.container-3 {
+		width: 100%;
+	}
+	.jumbotron {
+		width: 100%;
+		margin:30px;
+		text-align: center;
+		background-color: #0B589C;
+		line-height: 24px;
+		padding-right: 30px;
+	}
+	.jumbotron h2 {
+		font-size: 20px;
+	}
+	.jumbotron h3 {
+		font-size: 17px;
+		width: 100%;
+		text-align: center;
+		line-break: normal;
+		line-height: 20px;
+		margin-left: 5px;
+	}
+	.container-4 {
+		border:1px solid #f00000;
+		margin-left:30px;
+		margin-right:30px;
+		margin-bottom:100px;
+		padding:20px;
+		width: 100%;
+		padding-right: 50px;
+	}
+	.container-5 {
+		display:flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.container-6 {
+		display:flex;
+		justify-content:space-between;
+		width: 100%;
+	}
+	.container-7 {
+		display:flex;
+		justify-content:space-between;
+		width: 100%;
+	}
+	.container-8 {
+		display:flex;
+		justify-content:space-between;
+		width: 100%;
+	}
+	.container-9 {
+		display:flex;
+		justify-content:space-between;
+		width: 100%;
+	}
+	.Arsenal {
+		font-size:15px;
+		font-family:"ff-meta-web-pro",sans-serif;
+		font-weight:bold;
+		color:#030A10;
+	}
+	.scores {
+		background:#030A10;
+		color:white;
+		letter-spacing: 10px;
+		font-family:"ff-meta-web-pro",sans-serif;
+		font-weight:bold;
+		font-size:15px;
+		align-self: center;
+	}
+	.image {
+		height:25px;
+	}
+	.container-10 {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.container-11 {
+		display:flex;
+		justify-content: center;
+		margin:50px;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.container-12 {
+		display:flex;
+		justify-content:center;
+		margin-bottom:50px;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.container-13 {
+		display:flex;
+		justify-content:center;
+		margin-bottom:50px;
+		border-top:1px solid  rgba(255,255,255,0.3);
+		margin-left:50px;
+		margin-right:50px;
+		width: 100%;
+		flex-wrap: wrap;
+	}		
+}

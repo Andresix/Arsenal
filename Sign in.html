@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign in</title>
+	<link rel="stylesheet" type="text/css" href="sign in.css">
+</head>
+<body>
+	<h1>Register</h1>
+  <div class="container">
+	<form>
+		<label for="First name">First name:</label>
+        <input id="First name" type="text" name="First name" placeholder="First name" required>
+        <label for="Last name">Last name:</label>
+        <input id="Last name" type="text" name="Last name" placeholder="Last name" required>
+        <div>
+        	<label for="Male">Male:</label>
+        <input id="Male" type="radio" name="sex" value="male">
+        <label for="Female">Female:</label>
+        <input id="Female" type="radio" name="sex" value="female">
+        <label for="Other">Other:</label>
+        <input id="Other" type="radio" name="sex" value="other">
+        </div>
+        <div>
+        	<label for="Email">Email:</label>
+        <input type="Email" name="Email" placeholder="Email" required>
+        <label for="Password">Password:</label>
+        <input type="Password" name="Password" pattern=".{5,10}" required title="5 to 10 characters">
+        </div>
+        <div>
+        	<label>
+        		Birthday:
+        		<select name="month">
+        			<option>month</option>
+	       <option>jan</option>
+	       <option>feb</option>
+	       <option>mar</option>
+          </select>
+          <select name="day">
+          	<option>day</option>
+          	<option value="1">1</option>
+          	<option value="2">2</option>
+          	<option value="3">3</option>
+          </select>
+         <select name="year">
+          	<option>year</option>
+          	<option value="2018">2018</option>
+          	<option value="2019">2019</option>
+          	<option value="2020">2020</option>
+          </select>
+        	</label>
+        	
+        </div>
+<div>
+	<label for="I agree to the terms and conditions">I agree to the terms and conditions:</label>
+          <input id="I agree to the terms and conditions" type="checkbox" name="terms and conditions" required>
+</div>
+          
+          <input type="submit" name="">
+	</form>
+  </div>
+	
+
+</body>
+</html>
